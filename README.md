@@ -1,9 +1,9 @@
 ![image](./img/chat-top.png)
 
-# Chat Fake - App
+# Chat Fake - App :red_heart:
 
 Repositório do app construido com o intuito educativo. 
-## Executando o App. :green_heart:
+## Executando o App. :heavy_check_mark:
 
 Abaixo segue instruções para executar o app em seu navegador.
 
@@ -16,12 +16,23 @@ cd fake-chat-app
 index.html
 ```
 
-### Back-end
+### Back-end :art:
 
 O Back-end desse projeto é construido em HTML 5, CSS e JavaScript.
 
-### Funcionalidades
+### Funcionalidades :hammer:
 
 A ideia é implementar o ChatGPT-4 ao app, para que o usuário possa conversar, como se realmente fosse um chat com um amigx. 
 
-## Contribuições 
+## Contribuições :construction_worker:
+
+Estou muito feliz em ter voês interessados em participar desse projeto.
+Gostaria de pedir que, para facilitar a intereção entre todos, utilizem a [aba de discussões](https://github.com/rodineyw/fake-chat-app/discussions/2) para compartilhar ideias e sugestões para o projeto.
+
+### Issues :pencil:
+
+Caso encontrem algum problema durante o uso da aplicação ou queiram sugerir algo, utilizem a [aba de Issues](https://github.com/rodineyw/fake-chat-app/issues).
+
+### Licença :card_index:
+
+[MIT](https://github.com/rodineyw/fake-chat-app/blob/master/LICENSE)
