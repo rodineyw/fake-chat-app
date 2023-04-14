@@ -1,4 +1,4 @@
-![image](./img/Chat-top.png)
+![image](./img/chat-top.png)
 
 # Chat Fake - App
 
