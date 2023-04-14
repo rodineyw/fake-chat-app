@@ -4,6 +4,8 @@
 
 </div>
 
+
+
 # Chat Fake - App :red_heart:
 
 Repositório do app construido com o intuito educativo. 
