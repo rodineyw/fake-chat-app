@@ -1,4 +1,8 @@
+d<div align="center>
+
 ![image](./img/chat-top.png)
+
+</div>
 
 # Chat Fake - App :red_heart:
 
@@ -26,7 +30,7 @@ A ideia é implementar o ChatGPT-4 ao app, para que o usuário possa conversar, 
 
 ## Contribuições :construction_worker:
 
-Estou muito feliz em ter voês interessados em participar desse projeto.
+Estou muito feliz em ter vocês interessados em participar desse projeto.
 Gostaria de pedir que, para facilitar a intereção entre todos, utilizem a [aba de discussões](https://github.com/rodineyw/fake-chat-app/discussions/2) para compartilhar ideias e sugestões para o projeto.
 
 ### Issues :pencil:
