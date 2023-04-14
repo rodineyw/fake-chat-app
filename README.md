@@ -3,11 +3,12 @@
 # Chat Fake - App
 
 Repositório do app construido com o intuito educativo. 
-## Executando o App. 
+## Executando o App. :green_heart:
 
 Abaixo segue instruções para executar o app em seu navegador.
 
-Comece clonando o respositório e instalando suas dependências:
+Comece clonando o respositório e, com o comando "cd fake-chat-app" você acessa a pasta onde ela foi feita o Download, depois execute o comando: index.html e o app será executado em seu navegador.
+
 
 ```sh
 git clone https://github.com/rodineyw/fake-chat-app.git
@@ -17,8 +18,10 @@ index.html
 
 ### Back-end
 
-O back-end desse projeto é construido em HTML 5, CSS e JavaScript.
+O Back-end desse projeto é construido em HTML 5, CSS e JavaScript.
 
-## Funcionalidades
+### Funcionalidades
 
-A ideia é implementa o ChatGPT-4 ao app, para que o usuário possa conversa, como se reamente fosse um chat em seu celular com um amigx. 
+A ideia é implementar o ChatGPT-4 ao app, para que o usuário possa conversar, como se realmente fosse um chat com um amigx. 
+
+## Contribuições 
