@@ -1,4 +1,4 @@
-d<div align="center>
+<div align="center>
 
 ![image](./img/chat-top.png)
 
