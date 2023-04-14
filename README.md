@@ -6,7 +6,7 @@
 
 
 
-# Chat Fake - App :red_heart:
+# Chat Fake - App
 
 Repositório do app construido com o intuito educativo. 
 ## Executando o App. :heavy_check_mark:
