@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -172,3 +168,18 @@ logo {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
 }
 
+.msgs .msg .timestamp {
+    position: absolute;
+    bottom: -15px;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.msgs .msg::before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    border-top: 6px solid rgba(0, 0, 0, 0.3);
+    left: 0;
+
+}
