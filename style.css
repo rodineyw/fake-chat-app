@@ -181,5 +181,32 @@ logo {
     bottom: -6px;
     border-top: 6px solid rgba(0, 0, 0, 0.3);
     left: 0;
+    border-right: 7px solid transparent;
+}
 
+.msgs .msg .avatar {
+    position: absolute;
+    z-index: 1;
+    bottom: -15px;
+    left: -35px;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgba(255, 255, 255, 0.24);
+}
+
+.msgs .msg .avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.msgs .msg .msg-personal {
+    float: right;
+    color: #fff;
+    text-align: right;
+    background: linear-gradient(120deg, #248a24, #257287);
+    border-radius: 10px 10px 0 10px;
 }
