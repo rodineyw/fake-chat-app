@@ -108,16 +108,3 @@ function fakeMessage() {
         addMessageToPage(fakeMessages.shift());
     }, 1000 * (Math.random() *  20) * 100);
 };
-
-const { Configuration, OpenAiApi } = require("openai");
-
-const configuration = new Configuration({
-    apiKey: ProcessingInstruction.env.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,
-});
-const openai = new OpenAiApi(configuration);
-
-const completion = await openai.createCompletion({
-    model: "text-davinci-003",
-    prompt: "Hello World",
-});
-console.log(completion.data.choices[0].text);
