@@ -1,6 +1,7 @@
 <div align="center>
 
 ![image](./img/chat-top.png)
+![image](./img/tela.png)
 
 </div>
 
