@@ -1,10 +1,11 @@
 
+# Chat Fake - App
+##
 
 <img src="img/tela.png">
 
 ##
 
-# Chat Fake - App
 
 Repositório do app construido com o intuito educativo. 
 ## Executando o App. :heavy_check_mark:
