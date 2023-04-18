@@ -1,8 +1,6 @@
 <div align="center>
 
-
-![image](./img/tela.png)
-
+<img src="img/tela.png">
 
 </div>
 
