@@ -10,16 +10,17 @@ html, body {
 }
 
 body {
-    background: linear-gradient(135deg, #844f48, #2a7561);
+    background: linear-gradient(135deg, #144e75, #2b1446);
     background-size: cover;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu';
     font-size: 2rem;
     line-height: 1.3rem;
     overflow: hidden;
 }
 
 .chat {
-    width: 30rem;
+    width: 90%;
+    max-width: 30rem;
     height: 50rem;
     z-index: 2;
     overflow: hidden;
@@ -30,16 +31,16 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(80, 12, 94, 0.5);
     border-radius: 1rem;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 30px rgba(37, 15, 44, 0.363);
 }
 
 .chat-title {
     background: rgba(0, 0, 0, 0.2);
     padding: 10px 10px 10px 50px;
     color: #fff;
-    flex: 0 1 45px;
+    flex: 0 1 40px;
     position: relative;
     z-index: 2;
     text-align: left;
@@ -70,7 +71,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    border: 2px solid rgba(255, 255, 255, 0.24);
+    border: 2px solid rgba(159, 9, 189, 0.87);
 }
 
 .chat-title .avatar img {
@@ -148,7 +149,7 @@ body {
     border-radius: 10px 10px 10px 0;
     background: rgba(0, 0, 0, 0.3);
     margin: 8px 0;
-    font-size: 11px;
+    font-size: 1.3rem;
     line-height: 1.4;
     margin-left: 35px;
     position: relative;
@@ -162,7 +163,7 @@ body {
   border-radius: 10px 10px 10px 0;
   background: rgba(0, 0, 0, 0.3);
   margin: 8px 0;
-  font-size: 11px;
+  font-size: 1.3rem;
   line-height: 1.4;
   margin-left: 35px;
   position: relative;
