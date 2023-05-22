@@ -17,42 +17,42 @@ const fakeMessages = [
     'Time to make a new video',
     'Bye',
     ':)'
-  ];
+];
 
-  let minutes = 0;
+let minutes = 0;
 
   // Inicializar a barra de rolagem e exibir uma mensagem falsa ao carregar a janela
 
-  $(window).on('load', function() {
+$(window).on('load', function() {
     messageContent.mCustomScrollbar();
     setTimeout(fakeMessage, 100);
-  });
+});
 
   // Atualize a barra de rolagem para baixo e adicione carimbo de data/hora
 
-  function UpdateScrollbar() {
+function UpdateScrollbar() {
     messageContent.mCustomScrollbar('update').mCustomScrollbar('scrollTo', 'bottom', {
         scrollInertia: 10,
         timeout: 0
     });
-  };
+};
 
-  function addTimestamp() {
+function addTimestamp() {
     const date = new Date();
     const minutesNow = date.getMinutes();
 
     if(minutes !== minutesNow) {
         minutes = minutesNow;
         const timestamp = $('<div class="timestamp"></div>').
-        text('${date.getHours()}:${minutes}')
+        text(`${date.getHours()}:${minutes}`)
         $('.msg:last').append(timestamp);
     };
-  };
+};
 
-  function addMessageToPage(msg, isPersonal = false) {
+function addMessageToPage(msg, isPersonal = false) {
     const message = $('<div class="msg"></div>').text(msg);
     if(isPersonal) {
-        message.addClass('msg-pesonal');
+        message.addClass('msg-personal');
     }else {
         const figure = $('<figure class="avatar"></figure>');
         const image = $('<img>').attr('src', avatarImage);
@@ -62,11 +62,11 @@ const fakeMessages = [
     $('.mCSB_container').append(message);
     addTimestamp();
     UpdateScrollbar();
- };
+};
 
  // Função para inserir mensagem do usuário e acionar mensagem falsa após 1 segundo
 
- function insertMessage() {
+function insertMessage() {
     const messageText = messageInput.val().trim();
     if(messageText == '') {
         return false;
@@ -74,17 +74,17 @@ const fakeMessages = [
     addMessageToPage(messageText, true);
     messageInput.val(null);
     setTimeout(fakeMessage, 1000 + (Math.random() * 20) * 100);
- };
+};
 
  // Entrada de mensagem e ouvinte de evento do botão enviar
 
- messageInput.on('keydown', function(e) {
+messageInput.on('keydown', function(e) {
     // se o usuário pressionar enter, enviar mensagem
     if(e.which == 13) {
         insertMessage();
         return false;
     };
- });
+});
 
 messageSubmit.on('click', insertMessage);
 
