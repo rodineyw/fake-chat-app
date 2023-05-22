@@ -1,8 +1,8 @@
 
 # Fake Chat App
 
-####  Código e Projeto desenvolvido com a lista de: `100 Dias de códigos JavaScript`. 
-Do Canal [ASMR Prog](https://www.youtube.com/@AsmrProg/playlists)
+####  Code and Project developed with the list of: `100 Days of JavaScript codes`.
+From the channel [ASMR Prog](https://www.youtube.com/@AsmrProg/playlists)
 
 ---
 
@@ -10,9 +10,9 @@ Do Canal [ASMR Prog](https://www.youtube.com/@AsmrProg/playlists)
 
 #
 
-Repositório do App construído com o intuito educacional. 
+App repository built for educational purposes.
 
-### 🚀 - Técnologias:
+### 🚀 - Technologies:
 
 - [x] HTML
 - [x] CSS
@@ -20,7 +20,9 @@ Repositório do App construído com o intuito educacional.
 
 
 ### 📐 - Projeto:
-Link do Projeto: 
+Project Link:
 
+[Demo](https://fake-chat-app-zeta.vercel.app/)
+---
 
-#### Código e Protótipo desenvolvido por [ASMR Prog](https://github.com/AsmrProg-YT)
+#### Code and Prototype developed by [ASMR Prog](https://github.com/AsmrProg-YT)
