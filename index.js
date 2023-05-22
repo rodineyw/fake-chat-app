@@ -3,7 +3,7 @@ const messageInput = $('.msg-input');
 const messageSubmit = $('.msg-submit');
 const avatarImage = './img/logo.png';
 const fakeMessages = [
-    'Hi there, I\'m AsmrProg and you?',
+    'Hi there, I\'m AI rod and you?',
     'Nice to meet you',
     'How are you?',
     'Not too bad, thanks',
