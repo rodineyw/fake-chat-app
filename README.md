@@ -19,7 +19,7 @@ App repository built for educational purposes.
 - [x] Javascript
 
 
-### 📐 - Projeto:
+### 📐 - Project:
 Project Link:
 
 [Demo](https://fake-chat-app-zeta.vercel.app/)
