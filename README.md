@@ -6,7 +6,7 @@ From the channel [ASMR Prog](https://www.youtube.com/@AsmrProg/playlists)
 
 ---
 
-![Chat Image](img/fake-chat.png)
+![Chat Image](img/tela-chat.png)
 
 #
 
